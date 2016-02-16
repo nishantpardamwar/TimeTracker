@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BD938CD45708533350F202C10A4B5CBDE26ED365",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BD938CD45708533350F202C10A4B5CBDE26ED365" : 0,
+    "67620B5EFA902936DF04070AF595B76AB0333747" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B17C8A48-7719-4F75-9AA9-01815F4C96A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BD938CD45708533350F202C10A4B5CBDE26ED365" : "TimeTracker\/",
+    "67620B5EFA902936DF04070AF595B76AB0333747" : "TimeTracker\/TimeTracker\/Alamofire\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TimeTracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TimeTracker\/TimeTracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Alamofire\/Alamofire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nishantpardamwar\/TimeTracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BD938CD45708533350F202C10A4B5CBDE26ED365"
+    }
+  ]
+}
