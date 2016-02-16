@@ -16,6 +16,7 @@
 		681FD15A1C71F279003665AF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681FD14D1C71F25F003665AF /* Alamofire.framework */; };
 		681FD15B1C71F279003665AF /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 681FD14D1C71F25F003665AF /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		681FD1611C71FF02003665AF /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FD1601C71FF01003665AF /* URLs.swift */; };
+		68553B6C1C7312C6000CE74C /* ProjectListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68553B6B1C7312C6000CE74C /* ProjectListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		681D7E1A1C6F40C300543516 /* ProjectListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListViewController.swift; sourceTree = "<group>"; };
 		681FD1421C71F25D003665AF /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		681FD1601C71FF01003665AF /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		68553B6B1C7312C6000CE74C /* ProjectListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		681D7E191C6F408300543516 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				68553B6B1C7312C6000CE74C /* ProjectListTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				681D7E081C6F247500543516 /* LoginViewController.swift in Sources */,
 				681D7E061C6F247500543516 /* AppDelegate.swift in Sources */,
 				681D7E1B1C6F40C300543516 /* ProjectListViewController.swift in Sources */,
+				68553B6C1C7312C6000CE74C /* ProjectListTableViewCell.swift in Sources */,
 				681FD1611C71FF02003665AF /* URLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

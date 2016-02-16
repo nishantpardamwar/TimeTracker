@@ -8,28 +8,43 @@
 
 import UIKit
 
-class ProjectListViewController: UIViewController {
+class ProjectListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+    
+    
+    @IBOutlet weak var projectListTableView: UITableView!
+    
+    let list = ["nish","nikh","rahuldklshvshvghsiuvhijosvhikoshvjksgvsvhjsfnjvgsvjgdfpsbvisudvjkdgsviudnshjvgvbdsui"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        projectListTableView.dataSource = self
+        projectListTableView.delegate = self
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return list.count
     }
-    */
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCellWithIdentifier("projectListIemCell") as? ProjectListTableViewCell{
+                cell.configCell("\(indexPath.row)", name: list[indexPath.row])
+                return cell
+        }else{
+            return ProjectListTableViewCell()
+        }
+    }
+    
+    @IBAction func logoutButtonPressed(sender: AnyObject) {
+        
+        NSUserDefaults.standardUserDefaults().removeObjectForKey("token")
+        NSUserDefaults.standardUserDefaults().synchronize()
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
 
 }

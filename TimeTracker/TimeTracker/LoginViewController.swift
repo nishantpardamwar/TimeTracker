@@ -23,6 +23,7 @@ class ViewController: UIViewController {
             TOKEN = token
             loadHomeScreen()
         }else{
+            print("not logged in")
             makeloginVisible(false)
         }
     }
@@ -90,6 +91,8 @@ class ViewController: UIViewController {
     
     func makeloginVisible(hidden : Bool ){
         loginStackView.hidden = hidden
+        username.text = ""
+        password.text = ""
     }
     
 }
